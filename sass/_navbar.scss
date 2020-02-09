@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900&display=swap');
 
 body {
   overflow-x: hidden;
@@ -9,7 +9,7 @@ body {
 // Navigation
 .navbar {
   font-weight: 700;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
 
   & .navbar-nav .nav-link {
     color: white;
