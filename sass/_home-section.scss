@@ -57,3 +57,72 @@
     margin-top: 58px;
   }
 }
+
+@media(max-width: 992px) {
+  .caption {
+
+    & h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+// Medium size screen
+
+@media(max-width: 768px) {
+  .caption {
+
+    & h1 {
+      font-size: 40px;
+    }
+  
+    & h3 {
+      font-size: 1rem;
+    }
+  }
+}
+
+// Small devices
+
+@media(max-width: 576px) {
+  .caption {
+
+    & h1 {
+      font-size: 28px;
+    }
+
+    & hr {
+      border-top: 2px solid #ed145b;
+      width: 140px;
+      margin: 38px auto; 
+    }
+  
+    & h3 {
+      font-size: 14px;
+    }
+
+    & .btn-primary {
+      font-size: 12px;
+      width: 150px;
+      margin-top: 38px;
+    }
+  }
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
