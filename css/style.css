@@ -49,3 +49,45 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+.about-us { height: 647px; background-color: #f4f4f4; }
+
+.about-us .about-us__header--one { margin-top: 150px; }
+
+.about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 38px; letter-spacing: 1px; }
+
+.about-us .about-us__horizontal-rule { border-top: 2px solid #ed145b; width: 200px; margin: 28px 0; }
+
+.about-us .about-us__paragraph { font-size: 15px; color: #5a5a5a; line-height: 30px; }
+
+.about-us .about-us__link { color: #ed145b; font-size: 15px; margin-top: 37px; text-decoration: none; }
+
+.about-us .about-us__link .fa-play-circle { position: relative; top: 5px; left: 11px; font-size: 27px; }
+
+.about-us .about-us__image { position: relative; max-width: 100%; height: auto; margin-top: 105px; }
+
+/*---Extra Large media screen---*/
+@media (max-width: 1200px) { .about-us { height: 457px; background-color: #f4f4f4; }
+  .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 24px; }
+  .about-us .about-us__horizontal-rule { width: 140px; margin: 14px 0 6px; }
+  .about-us .about-us__paragraph { font-size: 13px; }
+  .about-us .about-us__link { color: #ed145b; font-size: 12px; }
+  .about-us .about-us__link .fa-play-circle { top: 4px; font-size: 22px; } }
+
+/*---Large media screen---*/
+@media (max-width: 992px) { .about-us { height: 387px; background-color: #f4f4f4; }
+  .about-us .about-us__header--one { margin-top: 120px; }
+  .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 18px; }
+  .about-us .about-us__horizontal-rule { border-top: 1px solid #ed145b; width: 110px; margin: 10px 0 2px; }
+  .about-us .about-us__paragraph { font-size: 11px; margin-bottom: 4px; }
+  .about-us .about-us__link { color: #ed145b; font-size: 12px; }
+  .about-us .about-us__link .fa-play-circle { top: 3px; font-size: 18px; } }
+
+/*---Medium media screen---*/
+@media (max-width: 768px) { .about-us { height: 787px; }
+  .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 20px; }
+  .about-us .about-us__paragraph { font-size: 14px; } }
+
+/*---Small media screen---*/
+@media (max-width: 576px) { .about-us { height: 720px; }
+  .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 21px; }
+  .about-us .about-us__paragraph { font-size: 13px; } }
