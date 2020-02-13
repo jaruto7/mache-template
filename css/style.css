@@ -67,6 +67,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /*---Extra Large media screen---*/
 @media (max-width: 1200px) { .about-us { height: 457px; background-color: #f4f4f4; }
+  .about-us .about-us__header--one { margin-top: 30px; }
   .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 24px; }
   .about-us .about-us__horizontal-rule { width: 140px; margin: 14px 0 6px; }
   .about-us .about-us__paragraph { font-size: 13px; }
@@ -75,10 +76,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 /*---Large media screen---*/
 @media (max-width: 992px) { .about-us { height: 387px; background-color: #f4f4f4; }
-  .about-us .about-us__header--one { margin-top: 120px; }
+  .about-us .about-us__header--one { margin-top: 130px; }
   .about-us .about-us__header--one, .about-us .about-us__header--two { font-size: 18px; }
   .about-us .about-us__horizontal-rule { border-top: 1px solid #ed145b; width: 110px; margin: 10px 0 2px; }
-  .about-us .about-us__paragraph { font-size: 11px; margin-bottom: 4px; }
+  .about-us .about-us__paragraph { font-size: 12px; margin-bottom: 4px; }
   .about-us .about-us__link { color: #ed145b; font-size: 12px; }
   .about-us .about-us__link .fa-play-circle { top: 3px; font-size: 18px; } }
 
