@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Palanquin+Dark:700|Palanquin:700|Passion+One:700&display=swap");
 body { overflow-x: hidden; font-family: 'Lato', sans-serif; color: #5a5a5a; }
 
 .navbar { font-weight: 700; background: rgba(0, 0, 0, 0.3) !important; }
@@ -108,3 +108,25 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .our-service__link:hover { color: #ed145b; }
 
 .our-service__circle { position: relative; top: 0; left: 50%; transform: translateX(-50%); display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; width: 131px; height: 131px; border-radius: 50%; border: 1px solid rgba(0, 0, 0, 0.3); margin-bottom: 23px; }
+
+.carousel { position: relative; }
+
+.carousel__paragraph { position: absolute; bottom: 260%; left: 0; font-size: 25px; letter-spacing: 1px; line-height: 40px; font-style: italic; font-weight: 300; margin: 0; }
+
+.carousel__paragraph--one:before, .carousel__paragraph--two:before { content: "''"; bottom: 150%; left: 48%; transform: rotate(-180deg) translateX(-48%); }
+
+.carousel__paragraph--one:after, .carousel__paragraph--two:after { content: "''"; top: 160%; left: 46%; }
+
+.carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { position: absolute; color: #ed145b; font-size: 158px; font-weight: 700; font-family: 'Palanquin', sans-serif; }
+
+.carousel__image { height: 500px; }
+
+.carousel-control-prev-icon { background-image: url("../images/arrow_left.png"); }
+
+.carousel-control-next-icon { background-image: url("../images/arrow_right.png"); }
+
+.carousel-control-next-icon, .carousel-control-prev-icon { width: 15px; height: 33px; }
+
+@media (max-width: 992px) { .carousel__paragraph { font-size: 16px; } }
+
+@media (max-width: 576px) { .carousel__paragraph { font-size: 11px; } }

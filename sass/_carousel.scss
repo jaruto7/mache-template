@@ -1,0 +1,77 @@
+.carousel {
+  position: relative;
+
+  &__paragraph {
+    position: absolute;
+    bottom: 260%;
+    left: 0;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    // padding: 66px;
+  }
+
+  &__paragraph--one, &__paragraph--two {
+    &:before {
+      content: "''";
+      bottom: 150%;
+      left: 48%;
+      transform:rotate( -180deg) translateX(-48%);
+    } 
+  }
+
+  &__paragraph--one, &__paragraph--two {
+    &:after {
+      content: "''";
+      top: 160%;
+      left: 46%;
+    } 
+  }
+
+  &__paragraph--one, &__paragraph--two {
+    &:after,
+    &:before {
+      position: absolute;
+      color: #ed145b;
+      font-size: 158px;
+      font-weight: 700;
+      font-family: 'Palanquin', sans-serif;
+    } 
+  }
+
+  &__image {
+    height: 500px;
+  }
+
+  &-control-prev-icon {
+    background-image: url('../images/arrow_left.png');
+  }
+
+  &-control-next-icon {
+    background-image: url('../images/arrow_right.png');
+  }
+
+  &-control-next-icon, &-control-prev-icon {
+    width: 15px;
+    height: 33px;
+  }
+}
+
+@media(max-width: 992px) {
+  .carousel {
+    &__paragraph {
+      font-size: 16px;
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  .carousel {
+    &__paragraph {
+      font-size: 11px;
+    }
+  }
+}
