@@ -111,7 +111,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .carousel { position: relative; }
 
-.carousel__paragraph { position: absolute; bottom: 260%; left: 0; font-size: 25px; letter-spacing: 1px; line-height: 40px; font-style: italic; font-weight: 300; margin: 0; }
+.carousel__paragraph { position: absolute; bottom: 390%; left: 0; font-size: 25px; letter-spacing: 1px; line-height: 40px; font-style: italic; font-weight: 300; padding: 0 230px; margin: 0; }
 
 .carousel__paragraph--one:before, .carousel__paragraph--two:before { content: "''"; bottom: 150%; left: 48%; transform: rotate(-180deg) translateX(-48%); }
 
@@ -119,7 +119,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { position: absolute; color: #ed145b; font-size: 158px; font-weight: 700; font-family: 'Palanquin', sans-serif; }
 
-.carousel__image { height: 500px; }
+.carousel__image { height: 500px; background-image: url("../images/header.png"); background-position: top; background-size: cover; background-repeat: no-repeat; }
+
+.carousel-control-prev { left: 10%; }
+
+.carousel-control-next { right: 10%; }
 
 .carousel-control-prev-icon { background-image: url("../images/arrow_left.png"); }
 
@@ -127,6 +131,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .carousel-control-next-icon, .carousel-control-prev-icon { width: 15px; height: 33px; }
 
-@media (max-width: 992px) { .carousel__paragraph { font-size: 16px; } }
+@media (max-width: 1200px) { .carousel__paragraph { font-size: 20px; padding: 0 76px; }
+  .carousel__paragraph--one:before, .carousel__paragraph--two:before { bottom: 140%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--two:after { top: 140%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { font-size: 128px; } }
 
-@media (max-width: 576px) { .carousel__paragraph { font-size: 11px; } }
+@media (max-width: 992px) { .carousel__paragraph { bottom: 440%; font-size: 15px; padding: 0 96px; line-height: 30px; }
+  .carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { font-size: 108px; } }
+
+@media (max-width: 768px) { .carousel__paragraph { font-size: 14px; padding: 0 43px; line-height: 25px; }
+  .carousel__paragraph--one:before, .carousel__paragraph--two:before { bottom: 140%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--two:after { top: 140%; left: 45%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { font-size: 108px; } }
+
+@media (max-width: 576px) { .carousel__paragraph { font-size: 12px; padding: 0 33px; line-height: 25px; }
+  .carousel__paragraph--one:before, .carousel__paragraph--two:before { bottom: 130%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--two:after { top: 130%; left: 45%; }
+  .carousel__paragraph--one:after, .carousel__paragraph--one:before, .carousel__paragraph--two:after, .carousel__paragraph--two:before { font-size: 88px; } }

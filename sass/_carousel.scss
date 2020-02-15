@@ -3,15 +3,15 @@
 
   &__paragraph {
     position: absolute;
-    bottom: 260%;
+    bottom: 390%;
     left: 0;
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 40px;
     font-style: italic;
     font-weight: 300;
+    padding: 0 230px;
     margin: 0;
-    // padding: 66px;
   }
 
   &__paragraph--one, &__paragraph--two {
@@ -44,6 +44,18 @@
 
   &__image {
     height: 500px;
+    background-image: url('../images/header.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &-control-prev {
+    left: 10%;
+  }
+
+  &-control-next {
+    right: 10%;
   }
 
   &-control-prev-icon {
@@ -60,10 +72,78 @@
   }
 }
 
+@media(max-width: 1200px) {
+  .carousel {
+    &__paragraph {
+      font-size: 20px;
+      padding: 0 76px;
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:before {
+        bottom: 140%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after {
+        top: 140%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after,
+      &:before {
+        font-size: 128px;
+      } 
+    }
+  }
+}
+
 @media(max-width: 992px) {
   .carousel {
     &__paragraph {
-      font-size: 16px;
+      bottom: 440%;
+      font-size: 15px;
+      padding: 0 96px;
+      line-height: 30px;
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after,
+      &:before {
+        font-size: 108px;
+      } 
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .carousel {
+    &__paragraph {
+      font-size: 14px;
+      padding: 0 43px;
+      line-height: 25px;
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:before {
+        bottom: 140%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after {
+        top: 140%;
+        left: 45%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after,
+      &:before {
+        font-size: 108px;
+      } 
     }
   }
 }
@@ -71,7 +151,29 @@
 @media(max-width: 576px) {
   .carousel {
     &__paragraph {
-      font-size: 11px;
+      font-size: 12px;
+      padding: 0 33px;
+      line-height: 25px;
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:before {
+        bottom: 130%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after {
+        top: 130%;
+        left: 45%;
+      } 
+    }
+
+    &__paragraph--one, &__paragraph--two {
+      &:after,
+      &:before {
+        font-size: 88px;
+      } 
     }
   }
 }
