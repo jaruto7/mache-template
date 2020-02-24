@@ -203,8 +203,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .prices__box-one--link:hover, .prices__box-two--link:hover, .prices__box-three--link:hover, .prices__box-four--link:hover { color: #fff; text-decoration: none; }
   .prices__wrapper--white { height: 360px; background-color: #fff; color: #5a5a5a; padding-top: 50px; margin-bottom: 28px; } }
 
-@media (max-width: 992px) { .prices { height: 2068px; background-color: #f4f4f4; }
-  .prices__title--one { font-size: 38px; letter-spacing: 1px; color: #5a5a5a; margin: 17.2em 0 36px; font-weight: 300; font-style: italic; }
+@media (max-width: 992px) { .prices { margin-top: 33.7em; height: 2068px; background-color: #f4f4f4; }
+  .prices__title--one { font-size: 38px; letter-spacing: 1px; color: #5a5a5a; margin: 2.8em 0 36px; font-weight: 300; font-style: italic; }
   .prices__horizontal-rule { border-top: 2px solid #ed145b; width: 200px; margin: 16px auto 41px; }
   .prices__title--two { font-size: 15px; line-height: 30px; color: #5a5a5a; font-weight: 300; }
   .prices__wrapper { height: 151px; color: #f4f4f4; font-weight: 700; }
@@ -221,8 +221,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .prices__box-one--link:hover, .prices__box-two--link:hover, .prices__box-three--link:hover, .prices__box-four--link:hover { color: #fff; text-decoration: none; }
   .prices__wrapper--white { height: 360px; background-color: #fff; color: #5a5a5a; padding-top: 50px; margin-bottom: 28px; } }
 
-@media (max-width: 768px) { .prices { height: 2420px; background-color: #f4f4f4; }
-  .prices__title--one { font-size: 38px; letter-spacing: 1px; color: #5a5a5a; margin: 25.8em 0 36px; font-weight: 300; font-style: italic; }
+@media (max-width: 768px) { .prices { margin-top: 52.9em; height: 1590px; background-color: #f4f4f4; }
+  .prices__title--one { font-size: 38px; letter-spacing: 1px; color: #5a5a5a; margin: 2.8em 0 36px; font-weight: 300; font-style: italic; }
   .prices__horizontal-rule { border-top: 2px solid #ed145b; width: 200px; margin: 16px auto 41px; }
   .prices__title--two { font-size: 15px; line-height: 30px; color: #5a5a5a; font-weight: 300; }
   .prices__wrapper { height: 151px; color: #f4f4f4; font-weight: 700; }
@@ -239,8 +239,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .prices__box-one--link:hover, .prices__box-two--link:hover, .prices__box-three--link:hover, .prices__box-four--link:hover { color: #fff; text-decoration: none; }
   .prices__wrapper--white { height: 360px; background-color: #fff; color: #5a5a5a; padding-top: 50px; margin-bottom: 28px; } }
 
-@media (max-width: 576px) { .prices { height: 4261px; background-color: #f4f4f4; }
-  .prices__title--one { font-size: 34px; letter-spacing: 1px; color: #5a5a5a; margin: 47.9em 0 36px; font-weight: 300; font-style: italic; }
+@media (max-width: 576px) { .prices { margin-top: 87.5em; height: 2641px; background-color: #f4f4f4; }
+  .prices__title--one { font-size: 34px; letter-spacing: 1px; color: #5a5a5a; margin: 3.2em 0 36px; font-weight: 300; font-style: italic; }
   .prices__horizontal-rule { border-top: 2px solid #ed145b; width: 200px; margin: 16px auto 41px; }
   .prices__title--two { font-size: 15px; line-height: 30px; color: #5a5a5a; font-weight: 300; }
   .prices__wrapper { height: 151px; color: #f4f4f4; font-weight: 700; }
